@@ -60,29 +60,25 @@ git clone https://github.com/jakkulanissy10/recipe-sprint-project.git
 cd recipe-sprint-project  
 npm init -y  
 npm install express bcryptjs jsonwebtoken sqlite3 dotenv nodemon  
-Create a .env file:
 
-env
-Copy
-Edit
+##Create a .env file:
 JWT_SECRET=yourSuperSecretKey
-Run the app:
+
+##Run the app:
 nodemon app.js
-Authentication Flow
+###Authentication Flow
 Register user
-
 Login to get JWT
-
 Use JWT as Bearer Token for protected routes
 
-OOP Concepts Used
+##OOP Concepts Used
 User and Recipe classes encapsulate logic
 
 Controllers call class methods instead of writing DB logic directly
 
 Promotes code reusability, clean structure, and testability
 
-Deployment
+#Deployment
 Live URL:
 https://recipe-sprint-project.onrender.com
 
