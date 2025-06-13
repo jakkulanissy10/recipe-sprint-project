@@ -18,24 +18,7 @@ A robust backend API built with **Node.js**, **Express.js**, and **SQLite**, usi
 
 ## Project Structure
 
-node-project/
-├── app.js # Entry point
-├── .env # Environment variables
-├── recipe.db # SQLite database file
-├── controllers/ # Business logic
-│ ├── userController.js
-│ └── recipeController.js
-├── models/ # Classes for User and Recipe
-│ ├── User.js
-│ └── Recipe.js
-├── middleware/ # Auth middleware
-│ └── authMiddleware.js
-├── routes/ # Route handlers
-│ ├── userRoutes.js
-│ └── recipeRoutes.js
-└── db/ # SQLite connection
-└── db.js
-
+<pre> ## Project Structure ```text node-project/ ├── app.js # Entry point ├── .env # Environment variables ├── recipe.db # SQLite database file ├── controllers/ # Business logic │ ├── userController.js │ └── recipeController.js ├── models/ # Classes for User and Recipe │ ├── User.js │ └── Recipe.js ├── middleware/ # Auth middleware │ └── authMiddleware.js ├── routes/ # Route handlers │ ├── userRoutes.js │ └── recipeRoutes.js └── db/ # SQLite connection └── db.js ``` </pre>
 yaml
 Copy
 Edit
@@ -84,10 +67,6 @@ Copy
 Edit
 JWT_SECRET=yourSuperSecretKey
 Run the app:
-
-bash
-Copy
-Edit
 nodemon app.js
 Authentication Flow
 Register user
